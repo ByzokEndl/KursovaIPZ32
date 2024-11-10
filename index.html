@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/faq.css">
     <link rel="stylesheet" type="text/css" href="css/cta.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/reg.css">
 </head>
 <body>
     <header>
@@ -53,6 +54,7 @@
                         </svg>
                             
                     </button>
+                    
                 </form>
             </div>
         </div>
@@ -481,7 +483,7 @@
                 </label>
                 <span>Yearly <span class="discount">Save 25%</span></span>
             </div>
-            ---------------
+
             <div class="pricing-plans">  
                 <div class="individual-plan">  
                     <h5><span>Individual Plan</span></h5>  
@@ -652,7 +654,7 @@
                 <div class="text-section">  
                     <h1>Unlock the Full Potential of <span>SmartNotes</span></h1>  
                     <p>Ready to streamline your workflow and boost your productivity? Start your free trial of SmartNotes today and experience the power of smart note-taking.</p>  
-                    <button>
+                    <button onclick="openPopup()" class="sig-button">
                         <a>Sign Up for Free</a>
                         <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="1.091" y="0.77002" width="31" height="31" rx="7.5" stroke="#080808"/>
@@ -661,15 +663,40 @@
                             </svg>
                             
                     </button>
+                    
                 </div>  
                 <div class="image-section">  
                     <img src="images/shapes.png" alt="SmartNotes Icons">  
-                </div>  
+                </div> 
+
+                <!-- REG Section -->
+                <div class="popup" id="popup">
+                    <div class="popup-content">
+                      <span class="close" onclick="closePopup()">&times;</span>
+                      <h2>Sing Up</h2>
+                      <form>
+                        <div class="gmail-input">
+                            <label for="Mail">Mail:</label>
+                            <input type="gmail" placeholder="">
+                          </div>
+                        <label for="first-name">Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                        
+                        <label for="second-name">Second-name:</label>
+                        <input type="text" id="second-name" name="second-name" required>
+                
+                        <button type="submit">Register</button>
+                      </form>
+                    </div>
+                  </div>
+
+
             
         </div>
     </section>
     <!-- cta -->
 </body>
+<div class="separator-line"></div>
 <div class="footer-container">
 <div class="footer-left">
     <div class="logo">
@@ -796,3 +823,15 @@
    
    </script>
    
+
+
+   <script>
+    // Функции для открытия и закрытия всплывающего окна
+    function openPopup() {
+      document.getElementById("popup").style.display = "block";
+    }
+
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
