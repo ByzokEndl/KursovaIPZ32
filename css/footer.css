@@ -70,7 +70,7 @@
 .email-input button {
     background-color: #ffffff;
     border: none;
-    padding: 8px 12px;
+    padding: 8px 5px;
     margin-left: 8px;
     border-radius: 5px;
     color: #111111;
@@ -83,6 +83,7 @@
     display: flex;
     justify-content: right;
     gap: 40px;
+    text-align: left;
 }
 
 .footer-column h3 {
@@ -114,40 +115,10 @@
     margin-top: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.maildown{
+    height: 50px; 
+    background-color: #ffffff !important;
+}
 
 /* Стили для текста слева */
 .footer .text-container p {
@@ -180,4 +151,3 @@
     width: 18px;
     height: 18px;
 }
-

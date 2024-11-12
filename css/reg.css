@@ -90,4 +90,5 @@
  #popup .popup-content button{
     background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
     margin-top: 15px;
+    width: 200px;
   }
