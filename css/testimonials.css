@@ -38,3 +38,29 @@
     line-height: 24px;
     color: #737373;
 }
+@media(max-width: 425px){
+    .testimonials .container {  
+        width: 100%; /* Використовуйте відсотки для ширини */  
+        padding: 0 15px; /* Додайте паддінг для внутрішнього відступу */  
+    }  
+
+    .testimonials .container .comment {  
+        font-size: 20px; /* Зменшіть шрифт */  
+        line-height: 28px; /* Зменшіть висоту рядка */  
+    }  
+
+    .testimonials .container .writer .author,  
+    .testimonials .container .writer .role {  
+        font-size: 14px; /* Зменшіть шрифт автора і ролі */  
+    }  
+
+    .testimonials .container .writer {  
+/* Розмістіть автор і роль один під іншим */  
+        align-items: center; /* Вирівняйте по центру */  
+    }  
+
+    .testimonials .container .writer .author {  
+        margin-right: 20px; /*правий відступ */  
+        margin-bottom: 15px; /* Додайте відступ між автором та роллю */  
+    } 
+}

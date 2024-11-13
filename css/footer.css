@@ -151,3 +151,38 @@
     width: 18px;
     height: 18px;
 }
+/* ------------------------------- */
+@media (max-width: 430px) {
+    .footer {
+        padding: 10px 15px;
+    }
+
+    .footer-container {
+        padding: 15px 0;
+        gap: 15px;
+    }
+
+    .email-input {
+        max-width: 260px;
+        padding: 8px;
+    }
+
+    .footer-left,
+    .footer-columns {
+        align-items: center;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 8px;
+    }
+
+    .separator-line {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .text-container p,
+    .text-container a {
+        font-size: 0.85rem;
+    }
+}

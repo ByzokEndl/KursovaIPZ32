@@ -104,3 +104,17 @@
     text-align: left;
     color: #BABABA;
 }
+@media(max-width: 430px){
+    #feature .container {
+        margin: 0 auto;
+    }
+    #feature .container .content {
+        width: 430px;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows:1fr;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+    }
+
+    }
