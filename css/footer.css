@@ -167,9 +167,16 @@
         padding: 8px;
     }
 
-    .footer-left,
+    .footer-left {
+        align-items: center;
+    }
     .footer-columns {
         align-items: center;
+        grid-template-columns:1fr;
+        grid-template-rows:1fr;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        display: block;
     }
 
     .footer-column ul li {
@@ -177,7 +184,7 @@
     }
 
     .separator-line {
-        width: 80%;
+        width: 100%;
         margin: 10px 0;
     }
 

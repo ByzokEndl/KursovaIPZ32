@@ -109,7 +109,7 @@
         margin: 0 auto;
     }
     #feature .container .content {
-        width: 430px;
+        width: 380px;
         display: block;
         grid-template-columns:1fr;
         grid-template-rows:1fr;
