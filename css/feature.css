@@ -109,13 +109,17 @@
         margin: 0 auto;
     }
     #feature .container .content {
-        width: 380px;
+        width: 370px;
         display: block;
         grid-template-columns:1fr;
         grid-template-rows:1fr;
         grid-column-gap: 8px;
         grid-row-gap: 8px;
         margin: 10px;
+        
     }
-
+    #feature .container .title {
+        text-align: center;
+        width: 370px;
+    }
     }

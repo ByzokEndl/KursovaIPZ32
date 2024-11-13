@@ -167,20 +167,23 @@
         padding: 8px;
     }
 
-    .footer-left {
+    .footer-left{
         align-items: center;
+        display: block;
     }
+
     .footer-columns {
         align-items: center;
-        grid-template-columns:1fr;
-        grid-template-rows:1fr;
-        grid-column-gap: 8px;
-        grid-row-gap: 8px;
-        display: block;
+        display: none;
     }
 
     .footer-column ul li {
         margin-bottom: 8px;
+        grid-template-columns:2fr;
+        grid-template-rows:2fr;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        display: grid;
     }
 
     .separator-line {
