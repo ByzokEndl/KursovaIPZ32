@@ -1,0 +1,38 @@
+.burger-icon{
+    display: none;
+}
+.burger{
+    display: none;
+}
+@media(max-width: 425px){
+    nav ul{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: left;
+        background: #080808;
+        overflow: hidden;
+        height: 300px;
+    }
+    nav ul li{
+        padding: 10px;
+        border-bottom: 2px solid #79fdc0;
+        max-width: 40%;
+
+
+    }
+    nav ul li:last-child{
+        border-bottom: none;
+    }
+    .burgericon{
+        display: block;
+        font-size: 40px;
+        font-weight: 100;
+    }
+     #menuList{
+        transition: all 0.8s;
+     }
+
+}

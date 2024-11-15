@@ -82,7 +82,7 @@ header .container .get-started #get-started-form button p {
     .container{
         max-width: 100%;
     }
-    header .container .menu{
+    header .container .get-started #get-started-form button{
         display: none;
     }
     }

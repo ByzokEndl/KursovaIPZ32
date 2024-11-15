@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/cta.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/reg.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -37,17 +38,18 @@
 
             <div class="menu">
                 <nav>
-                    <ul>
+                    <ul id="menuList">
                         <li><a href="">Features</a></li>
                         <li><a href="">Pricing</a></li>
                         <li><a href="">Support</a></li>
+                        <li><a href="">FAQs</a></li>
                     </ul>
                 </nav>
             </div>
 
             <div class="get-started">
                 <form method="get" id="get-started-form">
-                    <button >
+                    <button>
                         <p>Get Started</p>
 
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,6 +60,21 @@
                             
                     </button>
                     
+                        <div class="burgericon" onclick="toggleMenu()">&#9776;
+                            <script>
+                                let menuList = document.getElementById("menuList")
+                                menuList.style.maxHeight = "0px";
+
+                             function toggleMenu(){
+                             if(menuList.style.maxHeight == "0px"){
+                             menuList.style.maxHeight = "491px";
+                             }
+                             else{
+                             menuList.style.maxHeight = "0px";
+                             }
+                             }
+                            
+                            </script>
                 </form>
             </div>
         </div>
@@ -1023,6 +1040,7 @@
    
    </script>
    
+
 
 
    <script>
