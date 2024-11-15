@@ -109,7 +109,7 @@
         margin: 0 auto;
     }
     #feature .container .content {
-        width: 370px;
+        width: 345px;
         display: block;
         grid-template-columns:1fr;
         grid-template-rows:1fr;
@@ -122,4 +122,74 @@
         text-align: center;
         width: 370px;
     }
+    #feature .container .title .sub-title {
+        width: 350px;
+        margin: 0 auto;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #BABABA;
+    }
+    #feature .container .title h1 {
+        font-size: 30px;
+    }
+    #feature .container .title h1 span {
+        font-family: DM Sans;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 57.6px;
+        background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    #feature .container .title .sub-title {
+        width: 410px;
+        margin: 0 auto;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #BABABA;
+    }
+    #feature .container .content .cross-platform,
+#feature .container .content .customizable,
+#feature .container .content .secure-cloud,
+#feature .container .content .collaboration,
+#feature .container .content .ai-powered,
+#feature .container .content .integration {
+    padding: 15px;
+    border: 0.5px solid #048C80;
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px 0px #23272E14;
+    height: 215px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+    #feature .container .content .cross-platform .title,
+#feature .container .content .customizable .title,
+#feature .container .content .secure-cloud .title,
+#feature .container .content .collaboration .title,
+#feature .container .content .ai-powered .title,
+#feature .container .content .integration .title {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;    
+}
+#feature .container .content .cross-platform .text,
+#feature .container .content .customizable .text,
+#feature .container .content .secure-cloud .text,
+#feature .container .content .collaboration .text,
+#feature .container .content .ai-powered .text,
+#feature .container .content .integration .text {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #BABABA;
+}
+
     }

@@ -77,9 +77,37 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        max-width: 420px;
+        width: 360 px;
+        height: 406px;
     }
     .container{
         max-width: 100%;
+        
+    }
+    #hero .container .left-block .title {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35.54px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    
+    #hero .container .left-block .title span {
+        background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #hero .container{
+        height: 406px;
+        margin-top: 30px;
+    }
+    #hero .container .left-block .desc {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        margin-top:-16px ;
+        margin-bottom: 15px;
     }
     }

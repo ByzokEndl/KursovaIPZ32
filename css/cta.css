@@ -66,4 +66,33 @@ a{
 .image-section img {  
     max-width: 1440px; /* Встановіть потрібний розмір зображення */  
 }  
-
+@media(max-width: 430px){
+    #cta p {  
+        margin-bottom: 20px;  
+        font-size: 14px;  
+        line-height: 1.5;  
+        color: #BABABA;
+    }  
+    #cta .container .text-section h1{
+        text-align: left;
+        font-size:30px;
+    }
+    #cta .container .text-section h1 span{
+        font-family: DM Sans;
+        font-size:30px;
+        font-weight: 700;
+        line-height: 30.6px;
+        background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    #cta .container {  
+        display: flex;  
+        align-items: center;  
+        justify-content: space-between;  
+        text-align: center;
+        max-width: 800px; 
+        margin: auto;
+        margin-bottom: 60px; 
+    } 
+}
