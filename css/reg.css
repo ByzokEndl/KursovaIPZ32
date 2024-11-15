@@ -92,7 +92,7 @@
     margin-top: 15px;
     width: 200px;
   }
-  @media(max-width: 430px){
+  @media(max-width: 425px){
     .popup {
       display: none;
       position: fixed;

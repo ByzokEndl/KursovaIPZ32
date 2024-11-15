@@ -152,7 +152,7 @@
     height: 18px;
 }
 /* ------------------------------- */
-@media (max-width: 430px) {
+@media (max-width: 425px) {
     .footer {
         padding: 10px 15px;
     }

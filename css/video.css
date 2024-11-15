@@ -6,7 +6,7 @@
     width: 100%;
     height: 652px;
 }
-@media(max-width: 430px){
+@media(max-width: 425px){
     #video .container iframe {
         width: 335;
         height: 219px;
