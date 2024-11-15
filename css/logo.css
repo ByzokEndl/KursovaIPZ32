@@ -14,7 +14,7 @@
 }
 @media(max-width: 425px){
     #logos {
-        width: 388px;
+        width: 360px;
         margin: 50px 0;
         overflow: hidden;
     }

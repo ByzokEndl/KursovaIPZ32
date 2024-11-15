@@ -8,7 +8,7 @@
 }
 @media(max-width: 425px){
     #video .container iframe {
-        width: 335;
+        width: 350px;
         height: 219px;
         border-radius: 5px ;
     }  
