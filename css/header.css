@@ -72,6 +72,42 @@ header .container .get-started #get-started-form button p {
     font-weight: 400;
     line-height: 24px;
 }
+
+
+@media(max-width: 1024px){
+    #hero .container .left-block{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 1024px;
+    }
+    .container{
+        max-width: 100%;
+    }
+    #hero .container .right-block{
+    display: none;
+
+    }
+    }
+        
+        @media(max-width: 768px){
+            #hero .container .left-block{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                max-width: 100%;
+            }
+            .container{
+                max-width: 100%;
+            }
+            #hero .container .right-block{
+            display: none;
+            }
+            header .container .get-started #get-started-form button{
+                display: none;
+            }
+            }
+
 @media(max-width: 425px){
     #hero .container .left-block{
         display: flex;
@@ -86,3 +122,5 @@ header .container .get-started #get-started-form button p {
         display: none;
     }
     }
+
+   

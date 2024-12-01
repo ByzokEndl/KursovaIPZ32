@@ -5,9 +5,9 @@ $(document).ready(function() {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 0, // 0 для безперервної анімації
-        speed: 1000, // Швидкість анімації (регулюйте, щоб змінити швидкість руху)
+        speed: 3000, // Швидкість анімації (регулюйте, щоб змінити швидкість руху)
         cssEase: 'linear',
-        slidesToShow: 5,
+        slidesToShow:4,
         mobileFirst: true
         
     });

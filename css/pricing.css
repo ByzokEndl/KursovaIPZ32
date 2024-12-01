@@ -111,19 +111,19 @@ input:checked + .slider:before {
 .individual-plan {
     background-color: #f0f9f7;
     color: #333;
-    border: 1px solid #a4eddd;
+    border: 2px solid #048C80;
 }
 
 .team-plan {
     background-color: #121212;
     color: #fff;
-    border: 1px solid #333;
+    border: 2px solid #048C80;
 }
 
 .enterprise-plan {
     background-color: #f0f9f7;
     color: #333;
-    border: 1px solid #a4eddd;
+    border: 2px solid #048C80;
 }
 
 .plan h3 {
@@ -181,12 +181,139 @@ button {
     color: #777;
     margin-top: 10px;
 }
+
+@media(max-width: 1024px){
+    #pricing .container{
+        display: flex; 
+        flex-direction: column;
+        gap: 30px;
+        max-width: 1024px;
+    }
+
+    .pricing-container { 
+        display: flex;
+        gap: 10px;
+        max-width: 1024px;
+        margin-top: -50px;
+    }
+     
+    .container{
+        max-width: 100%;
+    }
+    .right-block img{
+        display: none;
+    }
+    .container img{
+        display: none;
+    }
+    h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    #pricing .container h1 span {
+        font-family: DM Sans;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.6px;
+        background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    #pricing .container .sub-title{
+        font-size: 16px;
+        color:#BABABA;
+        margin-top:-20px;
+    }
+    #pricing .container .toggle-container{
+        font-size: 14px;
+    }
+    .enterprise-plan{
+        height: 380px;
+        width: 323px;
+        border: 2px solid #048C80;
+    }
+    .individual-plan{
+        height: 380px;
+        width: 323px;
+        border: 2px solid #048C80;
+    }
+    .team-plan{
+        height: 380px;
+        width: 323px;
+        border: 2px solid #048C80;
+    }
+    }
+
+    @media(max-width: 768px){
+        #pricing .container{
+            display: flex; 
+            flex-direction: column;
+            gap: 30px;
+            max-width: 768px;
+        }
+    
+        .pricing-container { 
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 768px;
+            margin-top: 0px;
+        }
+         
+        .container{
+            max-width: 100%;
+        }
+        .right-block img{
+            display: none;
+        }
+        .container img{
+            display: none;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        #pricing .container h1 span {
+            font-family: DM Sans;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 57.6px;
+            background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent; 
+        }
+        #pricing .container .sub-title{
+            font-size: 16px;
+            color:#BABABA;
+            margin-top:-20px;
+        }
+        #pricing .container .toggle-container{
+            font-size: 14px;
+        }
+        .enterprise-plan{
+            height: 380px;
+            width: 323px;
+            border: 2px solid #048C80;
+        }
+        .individual-plan{
+            height: 380px;
+            width: 323px;
+            border: 2px solid #048C80;
+        }
+        .team-plan{
+            height: 380px;
+            width: 323px;
+            border: 2px solid #048C80;
+        }
+        }
+
 @media(max-width: 425px){
     #pricing .container{
         display: flex;
         flex-direction: column;
         gap: 30px;
         max-width: 420px;
+        margin-top: 40px;
     }
 
     .pricing-container { 
@@ -206,5 +333,35 @@ button {
     .container img{
         display: none;
     }
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
     }
-
+    #pricing .container h1 span {
+        font-family: DM Sans;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 57.6px;
+        background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    #pricing .container .sub-title{
+        font-size: 14px;
+        color:#BABABA;
+        margin-top:-20px;
+    }
+    #pricing .container .toggle-container{
+        font-size: 14px;
+    }
+    .enterprise-plan{
+        height: 380px;
+    }
+    .individual-plan{
+        height: 380px;
+    }
+    .team-plan{
+        height: 380px;
+    }
+    }
+   

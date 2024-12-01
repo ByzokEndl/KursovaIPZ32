@@ -7,7 +7,29 @@
 .socialmenu{
     display: none;
 }
-@media(max-width: 425px){
+.menu{
+    height:70px;
+    
+}
+#menuList li a:hover {
+    color: #048C80;
+    transition: fill 0.8s ease; 
+}
+.menu .socialmenu a svg rect {
+    fill: #017373; 
+    transition: fill 0.8s ease; 
+}
+.menu .socialmenu a svg path {
+    transition: fill 0.8s ease; 
+}
+.menu .socialmenu a:hover svg rect {
+    fill: #04cebd; 
+}
+
+@media(max-width: 768px){
+    menu{
+        height: 600px;
+    }
     nav ul{
         position: absolute;
         top: 88px;
@@ -20,15 +42,12 @@
         height: 400px;
         z-index: 1;
         border-bottom: 1px solid #048C80;
-        
+     
     }
     nav ul li{
         padding: 10px;
-        border-bottom: 1px solid #048C80;
-        max-width: 40%;
-       
-
-
+        border-bottom: 1px solid #707070;
+        max-width: 48%;
     }
     nav ul li:last-child{
         border-bottom: none;
@@ -48,3 +67,46 @@
      }
 
 }
+
+@media(max-width: 425px){
+    menu{
+        height: 600px;
+    }
+    nav ul{
+        position: absolute;
+        top: 88px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: left;
+        background: #080808;
+        overflow: hidden;
+        height: 400px;
+        z-index: 1;
+        border-bottom: 1px solid #048C80;
+     
+    }
+    nav ul li{
+        padding: 10px;
+        border-bottom: 1px solid #707070;
+        max-width: 48%;
+    }
+    nav ul li:last-child{
+        border-bottom: none;
+    }
+    .socialmenu{
+        display: block;
+        margin-top: 150px;
+        
+    }
+    .burgericon{
+        display: block;
+        font-size: 40px;
+        font-weight: 100;
+    }
+     #menuList{
+        transition: all 0.8s;
+     }
+
+}
+
