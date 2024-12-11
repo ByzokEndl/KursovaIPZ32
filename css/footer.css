@@ -1,7 +1,6 @@
 /* Основной стиль футера */
 .footer {
     width: auto; /* Ширина футера */
-    height: 76px; /* Высота футера */
     background-color: #008080; /* Зеленый фон */
     display: flex;
     justify-content: space-between; /* Расположение элементов по краям */

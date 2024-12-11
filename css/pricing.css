@@ -157,22 +157,24 @@ input:checked + .slider:before {
 button {
     width: 293.33px;
     height: 59px;
-    font-size: 1em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .individual-plan button {
+    background-color:  #f0f9f7;
     color: #333;
 }
 
 .team-plan button {
     background-color:  #121212;
     color: #fff;
+    display: block;
 }
 
 .enterprise-plan button {
+    background-color:  #f0f9f7;
     color: #333;
 }
 
